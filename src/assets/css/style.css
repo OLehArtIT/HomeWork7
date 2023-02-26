@@ -1,10 +1,7 @@
 body {
+    background-color:#EEEFF1;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-header {
-    background-color:#EEEFF1;
-    height: 700px;
 }
 p {
     margin: 0;
@@ -41,55 +38,49 @@ ul {
 .link__one {
     color: #34547A;
 }
-.header__title {
+.underheader__title {
     padding: 122px 980px 0px 265px;
     font-size: 22px;
     letter-spacing: 0.5px;
     white-space: nowrap;
 }
-.header__text {
+.underheader__text {
     color:#727272;
     padding: 18px 0px 0px 265px;
     font-size: 15px;
     letter-spacing: 0.5px;
     line-height: 25px;
 }
-.header__btn {
-    padding: 86px 0px 0px 265px;  
+.underheader__link {
+    padding: 65px 0px 0px 265px;
 }
-.header__btn button{
-    height: 65px;
-    width: 225px;
-    border: none;
-    color: white;
-    font-size: 16px;
-    padding: 0px 10px 8px 6px;
-    letter-spacing: 0.5px;
-    background-color:#34547A;
-    cursor: pointer;
-    
+.underheader__link a {
+background-color: #34547A;
+color: #FFFFFF;
+white-space: nowrap;
+padding: 19px 60px 20px 60px;
+font-weight: bold;
 }
-.header__btn button:hover {
+.underheader__link a:hover {
     opacity: 0.7;
 }
-main {
-    height: 1600px;
-}
 .info__main {
-    display: flex;
-    height: 359px;
-    flex-direction: column;
+  background-color: #FFFFFF;
+  margin-top: 100px;
+  padding-bottom: 62px;
+}
+.info__maintwo{
+    background-color: #FFFFFF;
+    margin-top: -26px;
+    padding-bottom: 62px;
 }
 .main__title h2 {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 81px;
+    text-align: center;
+    padding-top: 44px;
     font-size: 32px;
     letter-spacing: -2.5px;
 }
 .main__text p {
-    display: flex;
-    justify-content: space-evenly;
     text-align: center;
     padding-top: 8px;
     color: #727272;
@@ -98,33 +89,40 @@ main {
     line-height: 27px;
 }
 .icon__box {
-    display: flex;
     height: 250px;
     background-color: #34547A;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+}
+.all__icon {
+    text-align: center;
+    padding-top: 100px;
+    white-space: nowrap;
 }
 .icon__content {
-display: flex;
-margin-right: 55px;
+    display: inline-block;
+    margin-right: 55px;
+   
 } 
+.icon__image{
+    display: inline-block;
+    
+}
 .icon__text {
+    display: inline-block;
     color: #FFFFFF;
     margin-left: 17px;
 }
 .main__video {
-   display: flex;
-   margin-top: -56px;
-   justify-content: center;
-   align-content: center;
-   flex-wrap: wrap;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-bottom: 40px;
+
+}
+iframe {
+   border: none;
 }
 footer {
     background-color: #34547A;
     height: 100px;
-    margin-top: auto;
  }
  .footer__content {
     color: #FFFFFF;
