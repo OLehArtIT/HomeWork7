@@ -10,7 +10,7 @@ a {
     text-decoration: none;
     color: black;
 }
-h3 {
+h1,h2,h3 {
     margin: 0;
 }
 
@@ -20,13 +20,29 @@ li {
 }
 ul {
     margin: 0;
+    padding: 0;
 }
+.container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.color {
+    background-color: #FFFFFF;
+ }
+ .color__iconbox {
+    background-color: #34547A;
+ }
+
 .nav__link {
-    display: flex;
-    padding: 74px 875px 0px 221px;
+ text-align: left;
+ padding-top: 75px;
 }
+
 .nav__link li {
-    margin-left: 44px;
+    display: inline;
+    margin-right: 20px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
@@ -38,21 +54,25 @@ ul {
 .link__one {
     color: #34547A;
 }
+.info {
+    padding-top: 100px; 
+    text-align: left; 
+}
 .underheader__title {
-    padding: 122px 980px 0px 265px;
     font-size: 22px;
     letter-spacing: 0.5px;
     white-space: nowrap;
 }
 .underheader__text {
+    padding-top: 44px;
     color:#727272;
-    padding: 18px 0px 0px 265px;
     font-size: 15px;
     letter-spacing: 0.5px;
     line-height: 25px;
 }
 .underheader__link {
-    padding: 65px 0px 0px 265px;
+    padding-top: 90px;
+    width: 198px;
 }
 .underheader__link a {
 background-color: #34547A;
@@ -69,18 +89,18 @@ font-weight: bold;
   margin-top: 100px;
   padding-bottom: 62px;
 }
-.info__maintwo{
+.info__maintwo {
     background-color: #FFFFFF;
     margin-top: -26px;
     padding-bottom: 62px;
 }
-.main__title h2 {
+.main__title {
     text-align: center;
     padding-top: 44px;
     font-size: 32px;
     letter-spacing: -2.5px;
 }
-.main__text p {
+.main__text {
     text-align: center;
     padding-top: 8px;
     color: #727272;
@@ -89,12 +109,11 @@ font-weight: bold;
     line-height: 27px;
 }
 .icon__box {
-    height: 250px;
+    padding: 82px 0px;
     background-color: #34547A;
 }
 .all__icon {
     text-align: center;
-    padding-top: 100px;
     white-space: nowrap;
 }
 .icon__content {
@@ -122,9 +141,9 @@ iframe {
 }
 footer {
     background-color: #34547A;
-    height: 100px;
+   
  }
  .footer__content {
+    padding: 30px 0px;
     color: #FFFFFF;
-    padding: 20px 0px 0px 265px;
  }
